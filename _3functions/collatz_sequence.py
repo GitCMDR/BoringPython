@@ -23,7 +23,7 @@ def main():
 
     while my_number != 1:
         my_number = collatz(int(my_number))
-    print('Finally, your number has been rounded down to ' +
-          str(my_number) + '!')
+    print('Finally, your number has been rounded down to '
+          + str(my_number) + '!')
 
 main()
